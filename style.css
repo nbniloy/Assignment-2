@@ -1,0 +1,644 @@
+.container{
+    margin: 0 auto;
+   
+    padding: 50px;
+    font-family: 'Tauri', sans-serif;
+    
+}
+
+
+
+
+.marcelo{
+    display: flex;
+    background-color: black;
+    height: 450px;
+    border-radius: 40px;
+    border: 1px solid black;
+    
+}
+
+.heading{
+    width: 51%;
+    color: white;
+    padding: 30px;
+}
+
+.heading>h1{
+   font-size: 5vw;
+}
+
+
+.heading>h1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    transition-duration: infinite;
+}
+
+.heading>p{
+    font-size: 1.3vw;
+}
+
+.heading>p:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    transition-duration: infinite;
+    
+
+}
+
+.img{
+    width: 40%;
+    padding-top: 50px;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    transition-duration: infinite;
+}
+
+
+
+.livebtn{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.boxblog{
+    display: flex;
+}
+
+.box{
+    width: 20%;
+    height: 180px;
+    background-color: black; 
+    border-radius: 8px; 
+    
+    
+   
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    transition-duration: infinite;
+}
+.box>h5>a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: white ;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.upmatch{
+    text-decoration: none;
+    padding: 5px;
+    background-color:red ;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+
+}
+.blg{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+}
+
+
+.blog{
+    width: 80%;
+   padding-left: 20px;
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+   
+}
+
+
+
+
+.cardm{
+    border: 1px solid wheat;
+    font-size: 10px;
+    border-radius: 15px;
+
+}
+
+.cardm:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    transition-duration: infinite;
+}
+
+
+.cardm button{
+    background-color: blueviolet;
+    color: white;
+}
+
+.cardm>img{
+   
+    width: 100%;
+}
+
+.cardm>h3{
+    padding: 10px;
+}
+.cardm>button{
+    padding: 5px;
+    border-radius: 5px;
+    
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+
+
+.cardm>span>img{
+    width: 2vw;
+    height: 2vw;
+    padding-left: 1.5vw;
+    margin-left: 8px;
+  
+
+}
+
+.cardm>span>span{
+    margin-top: 20px;
+}
+
+
+
+footer{
+    
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    
+}
+
+
+.goal{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.icon{
+    text-align: center;
+    padding: 40px;
+}
+
+.icon a img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.view>button{
+    padding: 7px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 50%;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobilescreen starts here */
+@media screen and (max-width:576px) {
+
+
+    /* Banner starts here */
+    .container{
+        margin: 0 auto;
+        padding: 15px;
+        font-family: 'Tauri', sans-serif;
+   }
+
+   .marcelo{
+    display: block;
+    background-color: black;
+    height: 580px;
+    border-radius: 40px;
+    border: 1px solid black;
+    
+}
+
+
+.heading{
+    
+    color: white;
+    padding: 30px;
+    width: 84%;
+}
+
+.heading>h1{
+    font-size: 5vw;
+  text-align: center;
+  
+ }
+ 
+ .heading>p{
+     font-size: 3.5vw;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .livebtn{
+   
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 30%;
+ }
+
+
+ .img{
+    margin-right: 30%;
+    margin-left: 22%;
+ }
+  
+    
+   
+.img img{
+     width: 150%;
+     margin-top: -70px;
+    
+     
+ }
+
+
+ /* banner ends here */
+
+
+
+
+
+/* Box starts here */
+ .boxblog{
+    display: block;
+}
+
+.box{
+    width: 40%;
+    height: 180px;
+    background-color: white; 
+    
+    border-radius: 8px; 
+    margin-left: 30%;
+   
+    
+   
+}
+.box>h5>a{
+    text-decoration: none;
+    padding: 5px;
+    background-color:white ;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    border: 2px solid wheat;
+}
+
+.upmatch{
+    text-decoration: none;
+    padding: 5px;
+    background-color:red ;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+
+}
+.blg{
+    text-decoration: none;
+    padding: 5px;
+    background-color:red ;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:5px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+
+/* Box ends here */
+
+
+
+
+/* blog starts here */
+
+.blog{
+    width: 80%;
+   padding-left: 20px;
+   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    margin-left: 8%;
+   
+}
+
+
+
+.cardm{
+    border: 1px solid wheat;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+
+.cardm>img{
+   
+    width: 100%;
+}
+
+.cardm>h3{
+    padding: 10px;
+}
+.cardm>button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+    
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+
+
+.cardm>span>img{
+    width: 4vw;
+    height: 4vw;
+    padding-left: 1.5vw;
+    margin-left: 8px;
+  
+
+}
+
+.cardm>span>span{
+    margin-top: 20px;
+}
+
+
+/* blog ends here */
+
+
+
+
+/* Footer Starts Here */
+
+.service{
+    display: block;
+    justify-content: center;
+    list-style-type: none;
+    color: rgb(221, 194, 194);
+   
+    
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+.service li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer{
+    height: 520px;
+}
+/* Footer Ends Here */
+/* 
+Mobilescreen Ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
